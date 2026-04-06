@@ -2,9 +2,7 @@
 // Include your database connection script
 require_once 'softwarelec/core/dbConfig.php';
 
-// ==============================================================================
 // 6. SHOW CODE DEMONSTRATING DELETION OF RECORD TO YOUR DATABASE
-// ==============================================================================
 echo "<h3>5. Demonstrating DELETE</h3>";
 
 $deleteQuery = "DELETE FROM rock_bands WHERE band_id = :id";
